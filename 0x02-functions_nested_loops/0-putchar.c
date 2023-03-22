@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - print _putchar is written by mbah
  * Return: return to 0 when success
@@ -8,7 +7,7 @@
 
 int main(void)
 {
-  putchar(' ');
+  putchar('_');
   _putchar('p');
   _putchar('u');
   _putchar('t');
