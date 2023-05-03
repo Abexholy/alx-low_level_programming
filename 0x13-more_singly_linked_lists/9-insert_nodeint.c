@@ -34,12 +34,12 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		if (node == idx - 1)
 		{
-		New_number->next = temp->next;
+		New_number->next = fill->next;
 		fill->next = New_number;
 		return (New_number);
 		}
 		node++
-			temp = temp->next
+			fill = fill->next
 	}
 
 	free(New_number);
