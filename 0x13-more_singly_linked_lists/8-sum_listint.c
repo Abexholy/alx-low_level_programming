@@ -14,7 +14,7 @@ int sum_listint(listint_t *head)
 	while (flow)
 	{
 		sum += flow->n;
-		current = current->next;
+		flow = flow->next;
 	}
 
 	return (sum);
