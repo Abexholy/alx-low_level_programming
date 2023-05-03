@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_list list : size_t print_listint(const listint_t *h);
+ * print_listint - this will print out element of listing
  *
- * headerfile : head of list nodes
+ * @h : the head of list nodes
  *
- * Return the number of loops
+ * Return: i
+ * number of loops
  *
  */
 size_t print_listint(const listint_t *h)
