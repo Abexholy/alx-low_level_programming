@@ -27,7 +27,7 @@ size_t print_listint_safe(const listint_t *head)
 			exit(98);
 		}
 	}
-	
+
 	if (tiger)
 	{
 		printf("[%p] %d\n", (void *)snake, snake->n);

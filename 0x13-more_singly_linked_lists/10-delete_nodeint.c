@@ -13,9 +13,9 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *tac, *tour;
 	unsigned int number;
-	
+
 	if (head == NULL || *head == NULL)
-                return (-1);
+		return (-1);
 
 	tac = *head;
 	if (index == 0)
@@ -24,7 +24,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		free(tac);
 		return (1);
 	}
-	
+
 	for (number = 0; number < index && tac != NULL; number++)
 	{
 		tour = tac;
