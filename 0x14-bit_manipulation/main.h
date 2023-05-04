@@ -4,10 +4,9 @@
 /*
  * File: Bit manupulator
  * Description: Header file including prototype for all the functions
- * written in the directoty 
+ * written in the directoty
  *
  */
-
 int _putchar;
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
