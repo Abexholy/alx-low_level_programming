@@ -9,5 +9,5 @@ void print_binary(unsigned long int m)
 	if (m > 1)
 		print_binary(m >> 1);
 
-	_putch
+	_putchar((n & 1) + '0');
 }
