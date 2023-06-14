@@ -45,7 +45,7 @@ char **strtow(char *str)
 	if (work == 0)
 		return (NULL);
 
-	triple = (char **) malloc(sizeof(char *) * (work + 1));
+	tripl = (char **) malloc(sizeof(char *) * (work + 1));
 	if (tripl == NULL)
 		return (NULL);
 
