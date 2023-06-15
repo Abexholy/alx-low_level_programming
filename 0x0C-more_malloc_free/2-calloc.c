@@ -15,16 +15,16 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		if (nmemb == 0 || size == 0)
 			return (NULL);
 
-	m = nmeb * size;
+	m = nmemb * size;
 	a = malloc(m);
 
 	if (a == NULL)
 	return (NULL);
 
-	while (b < a)
+	while (b < m)
 	{
-		p[b] = 0;
-		n++;
+		a[b] = 0;
+		b++;
 	}
-	return (p);
+	return (a);
 }
