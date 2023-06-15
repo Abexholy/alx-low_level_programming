@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include "main.h"
-/*
+/**
  * _calloc - allocates memory for an array
- * @nmeb: Number of the tottal members
- * @size: size of memory
- * Return - return values given
+ * @nmemb: function parameter
+ * @size: func para
+ * Return: void
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int b = 0, m = 0;
