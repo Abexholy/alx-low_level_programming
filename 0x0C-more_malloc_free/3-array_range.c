@@ -1,4 +1,4 @@
-#include <stlib.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * array_range - creates an array of all the integers
