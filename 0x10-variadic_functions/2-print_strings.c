@@ -17,7 +17,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *dar;
 	unsigned int indes;
 
-	va_start(schoool, n);
+	va_start(school, n);
 
 	for (indes = 0; indes < n; indes++)
 	{
