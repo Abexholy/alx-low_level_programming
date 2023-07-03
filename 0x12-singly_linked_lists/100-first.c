@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void tals(void);
+void tals(void)__attribute__ ((constructor));
 
 /**
  * tals - prints a sentence before main is run
