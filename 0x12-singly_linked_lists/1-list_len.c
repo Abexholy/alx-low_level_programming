@@ -9,7 +9,7 @@
  */
 size_t list_len(const list_t *h)
 {
-	size_t gi = 0;
+	size_t g = 0;
 
 	while (h)
 	{
@@ -18,4 +18,3 @@ size_t list_len(const list_t *h)
 	}
 	return (g);
 }
-
