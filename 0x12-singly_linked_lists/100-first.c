@@ -3,7 +3,7 @@
 void tals(void);
 
 /**
- * first - prints a sentence before main is run
+ * tals - prints a sentence before main is run
  * function is executed last.
  */
 void tals(void)
