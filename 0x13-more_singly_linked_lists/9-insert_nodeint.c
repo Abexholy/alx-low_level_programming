@@ -29,7 +29,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (bax);
 	}
 
-	for poe = 0; poe < (idx - 1); poe++)
+	for (poe = 0; poe < (idx - 1); poe++)
 	{
 		if (paste == NULL || paste->next == NULL)
 			return (NULL);
